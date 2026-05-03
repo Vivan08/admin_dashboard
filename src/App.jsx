@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider, useAuth } from './Context/AuthContext';
-import { ThemeProvider } from './Context/ThemeContext';
-import Layout from './Components/Layout/Layout';
-import Dashboard from './Pages/Dashboard';
-import Users from './Pages/Users';
-import Sales from './Pages/Sales';
-import Products from './Pages/Products';
-import Settings from './Pages/Settings';
-import Login from './Pages/Login';
+import { AuthProvider, useAuth } from './context/AuthContext';
+import { ThemeProvider } from './context/ThemeContext';
+import Layout from './components/Layout/Layout';
+import Dashboard from './pages/Dashboard';
+import Users from './pages/Users';
+import Sales from './pages/Sales';
+import Products from './pages/Products';
+import Settings from './pages/Settings';
+import Login from './pages/Login';
 import './App.css';
 
 // Protected Route Component
