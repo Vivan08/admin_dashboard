@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Card from '../components/Card/Card.jsx';
-import Table from '../components/Table/Table.jsx';
+import Card from '../Components/Card/Card.jsx';
+import Table from '../Components/Table/Table.jsx';
 import './Products.css';
 
 const Products = () => {

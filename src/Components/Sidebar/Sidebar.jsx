@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext.jsx';
-import { useTheme } from '../../context/ThemeContext.jsx';
+import { useAuth } from '../../Context/AuthContext.jsx';
+import { useTheme } from '../../Context/ThemeContext.jsx';
 import './Sidebar.css';
 
 const Sidebar = () => {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useAuth } from '../../context/AuthContext.jsx';
-import { useTheme } from '../../context/ThemeContext.jsx';
+import { useAuth } from '../../Context/AuthContext.jsx';
+import { useTheme } from '../../Context/ThemeContext.jsx';
 import { useNavigate } from 'react-router-dom';
 import './Header.css';
 

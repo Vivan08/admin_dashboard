@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Card from '../components/Card/Card.jsx';
-import { useAuth } from '../context/AuthContext.jsx';
-import { useTheme } from '../context/ThemeContext.jsx';
+import Card from '../Components/Card/Card.jsx';
+import { useAuth } from '../Context/AuthContext.jsx';
+import { useTheme } from '../Context/ThemeContext.jsx';
 import './Settings.css';
 
 const Settings = () => {

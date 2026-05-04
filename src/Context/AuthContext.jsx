@@ -18,7 +18,7 @@ export const AuthProvider = ({ children }) => {
   // Check for existing session on mount
   useEffect(() => {
     const storedUser = localStorage.getItem('user');
-    const sessionToken = sessionStorage.getItem('sessionToken');
+    const sessionToken = localStorage.getItem('sessionToken');
     
     if (storedUser && sessionToken) {
       setUser(JSON.parse(storedUser));
@@ -58,7 +58,7 @@ export const AuthProvider = ({ children }) => {
           const sessionToken = `session_${Date.now()}_${Math.random()}`;
           
           localStorage.setItem('user', JSON.stringify(userWithoutPassword));
-          sessionStorage.setItem('sessionToken', sessionToken);
+          localStorage.setItem('sessionToken', sessionToken);
           
           setUser(userWithoutPassword);
           setIsAuthenticated(true);
@@ -72,7 +72,7 @@ export const AuthProvider = ({ children }) => {
 
   const logout = () => {
     localStorage.removeItem('user');
-    sessionStorage.removeItem('sessionToken');
+    localStorage.removeItem('sessionToken');
     setUser(null);
     setIsAuthenticated(false);
   };

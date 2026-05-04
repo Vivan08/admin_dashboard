@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Card from '../components/Card/Card.jsx';
-import Chart from '../components/Chart/Chart.jsx';
-import Table from '../components/Table/Table.jsx';
+import Card from '../Components/Card/Card.jsx';
+import Chart from '../Components/Chart/Chart.jsx';
+import Table from '../Components/Table/Table.jsx';
 import './Sales.css';
 
 const Sales = () => {
