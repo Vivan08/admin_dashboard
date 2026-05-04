@@ -1,8 +1,8 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Sidebar from '../Sidebar/Sidebar';
-import Header from '../Header/Header';
-import { useTheme } from '../../context/ThemeContext';
+import Sidebar from '../Sidebar/Sidebar.jsx';
+import Header from '../Header/Header.jsx';
+import { useTheme } from '../../context/ThemeContext.jsx';
 import './Layout.css';
 
 const Layout = () => {

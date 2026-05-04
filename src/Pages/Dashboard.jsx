@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Card from '../components/Card/Card';
-import Chart from '../components/Chart/Chart';
-import { useAuth } from '../context/AuthContext';
+import Card from '../components/Card/Card.jsx';
+import Chart from '../components/Chart/Chart.jsx';
+import { useAuth } from '../context/AuthContext.jsx';
 import './Dashboard.css';
 
 const Dashboard = () => {
